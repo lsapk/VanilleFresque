@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&family=Raleway:wght@100;400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Josefin Sans", sans-serif;
+  --font-heading: "Raleway", cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFF url('https://assets.jimstatic.com/s/img/cms/background/fix/10.gif') repeat scroll top left;
+  color: #CCCCCC;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", cursive;
+  color: #e6d4a6;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+a {
+  color: #EEEEEE;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #EEEEEE;
+  text-decoration: none;
+}
